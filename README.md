@@ -1,8 +1,2 @@
-- 👋 Hi, I’m AbdurRahman
-- 👀 I’m interested in ReactJs, JSX,
-Competitive Programming ,automation,Designing and API DEV.
-I am working in this feild for 3 years.
-I have worked out many of Projects in API Dev, Designing, SPA.
-I am currently learning the ReactJSX and getting it mastered.
-
-<!-- Email: abdurrahman.is.here@gmail.com -->
+##Intro
+A.S I am Abdur Rahman AR. I am professional Programmer. I am not an open source Programmer exactly but I am now a Professional And I like to contribute in npm libraries  
