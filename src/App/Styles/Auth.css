@@ -1,0 +1,54 @@
+.auth {
+    width: 30em;
+    min-height: 40em;
+    background-color: #ffff;
+    text-align: center;
+    box-shadow: 0 0 50px #c7c7c76b;
+    margin: 8em auto 0 auto;
+    padding: 1em 1.5em;
+    border-radius: .8em;
+    font-family: roboto, inter, system-ui;
+    animation: rotate_X cubic-bezier(0.075, 0.82, 0.165, 1) .4s;
+}
+
+.auth-f_s {
+    margin-top: 1em;
+}
+
+.auth-f_s .auth-f {
+    height: 40px;
+    width: 94%;
+    margin: .5em 0;
+}
+
+.auth .auth-f_s .auth-f input {
+    transition: .1s cubic-bezier(0.165, 0.84, 0.44, 1);
+    font-family: roboto, inter, system-ui;
+    width: 100%;
+    height: 35px;
+    border: 1px solid #b6bdc4;
+    border-radius: .4em;
+    padding: 0 1em;
+    font-size: .91em;
+    outline-color: #1a73e8;
+}
+
+.auth .auth-f_s .auth-f button {
+    transition: .1s cubic-bezier(0.165, 0.84, 0.44, 1);
+    font-family: roboto, inter, system-ui;
+    color: white;
+    height: 35px;
+    min-width: 100px;
+    border-radius: .4em;
+    padding: 0 1em;
+    font-size: .91em;
+    outline: none;
+    position: relative;
+    overflow: hidden;
+    border: none;
+    background-color: #1a73e8;
+}
+
+.auth .auth-f_s .auth-f button:active {
+    box-shadow: 4px 3px 10px #b6bdc4;
+}

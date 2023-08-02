@@ -1,0 +1,53 @@
+.brand {
+    font-family: roboto, inter, system-ui;
+}
+
+.brand .header {
+    margin: 2em 0;
+}
+
+.descriptions,
+.descriptions-privacy-policy {
+    background-color: white;
+    border-radius: .6em;
+    width: 50em;
+    padding: 1em 1em;
+    padding-bottom: 3em;
+    margin: .5em auto;
+    animation: rotate_X .4s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.descriptions-privacy-policy {
+    padding: 2em;
+}
+.descriptions-privacy-policy li{
+    list-style: none;
+}
+
+.descriptions p {
+    text-align: center;
+}
+
+.descriptions img[class="logo"] {
+    width: 60px;
+    height: 60px;
+}
+
+.descriptions .social-link img {
+    width: 30px;
+    margin: 0 .5em;
+    height: 30px;
+    cursor: pointer;
+}
+
+@media screen and (min-width:320px) and (max-width:620px) {
+    .descriptions {
+        width: 91%;
+        border-radius: 0;
+    }
+
+    .descriptions-privacy-policy {
+        padding: 2em 1em;
+        width: 91%;
+    }
+}
